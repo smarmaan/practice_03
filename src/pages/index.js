@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 
@@ -6,8 +7,7 @@ const index = () => {
     <div>
       <Navbar></Navbar>
 
-      <h1> Welcome to the Home page</h1>
-
+      <Banner />
       <div className="mt-[calc(100vh-315px)]">
         <Footer />
       </div>
