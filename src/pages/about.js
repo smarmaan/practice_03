@@ -1,18 +1,17 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 
-const index = () => {
+const about = () => {
   return (
-    <div>
+    <>
       <Navbar></Navbar>
-
-      <h1> Welcome to the Home page</h1>
+      <h1> Welcome to the about page</h1>
 
       <div className="mt-[calc(100vh-315px)]">
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
-export default index;
+export default about;
